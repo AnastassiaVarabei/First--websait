@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+}
+.wrapper {
+    height: 100vh;
+    background: url(./foto.jpg);
+    background-size: cover;
+}
+
+.wrapper {
+    padding-top: 240px;
+    box-sizing: border-box;
+    height: 100vh;
+    background-image: url(./foto.jpg);
+    background-color: rgba(0, 0, 0, .2);
+    background-size: cover;
+}
+.description, .title {
+    font-family: sans-serif, Arial;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+}
+.button {
+    display: block;
+    margin: auto;
+    width: 150px;
+    font-family: sans-serif, Arial;
+    font-size: 14px;
+    line-height: 28px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: transparent;
+    border: 2px solid;
+    text-align: center;
+    transition-duration: 0.4s;
+}
+.button:hover {
+    background: #ffffff;
+    border-color: #ffffff;
+    color: #000;
+}
